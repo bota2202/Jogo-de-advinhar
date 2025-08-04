@@ -1,0 +1,81 @@
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0f7ff;
+    background: linear-gradient(0deg, #e6faff 0%, #d6f3ff 10%, #ccefff 50%, #bfeaff 100%);
+}
+
+#voltar{
+    position: absolute;
+    left: 0.6%;
+    top: 2%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 9%;
+    height: 7%;
+    background-color: #f9f9f9;
+    font-size: 25px;
+    text-align: center;
+    background: #d1ffd4c7;
+    background: linear-gradient(180deg, rgba(209, 255, 212, 0.54) 0%, rgba(224, 255, 237, 0.58) 100%);
+
+}
+
+.vhidden{
+    visibility: hidden;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#advinhar-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 85%;
+    width: 40%;
+    background-color: rgba(209, 255, 212, 0.54);
+    border-radius: 10px;
+    text-align: center;
+}
+
+p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+input{
+    width: 75%;
+    height: 6%;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#btn-advinhar{
+    width: 60%;
+    height: 5%;
+    border-radius: 5px;
+    color: black;
+    border: 0.5px solid gray;
+    background-color: #ffffff;
+}
+
