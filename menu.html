@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+
+</head>
+<body>
+    <section id="menu">
+        <article id="texto-menu">
+            <p>
+            Bem vindo ao jogo de advinhação.<br>
+            Escolha o nível que deseja jogar:
+            </p>
+        </article>
+
+        <article id="btn-menu">
+            <button onclick="trocaraba('nivel1')" class="nivel">
+                Iniciante
+            </button>
+
+            <button onclick="trocaraba('nivel2')" class="nivel bloqueado" disabled>
+                <i class="fa-solid fa-lock"></i>
+            </button>
+
+            <button onclick="trocaraba('nivel3')" class="nivel bloqueado" disabled>
+                <i class="fas fa-lock"></i>
+            </button>
+        </article>
+
+    </section>
+
+    <script src="https://kit.fontawesome.com/f62dd20274.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
